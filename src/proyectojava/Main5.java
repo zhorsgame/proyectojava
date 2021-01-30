@@ -9,22 +9,13 @@ package proyectojava;
  *
  * @author juanmi
  */
-public class Main4 {
+public class Main5 {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        int [] numeros = {5,4,4};
-        double promedio =0;
-        for(int i=0; i<numeros.length; i++){
-            promedio = promedio + numeros[i];
-        }
-        double n = numeros.length;
-        promedio = promedio/n;
-        System.out.println("promedio:"+promedio);
-        
-    
+        // TODO code application logic here
     }
     
 }
