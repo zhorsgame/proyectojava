@@ -15,7 +15,15 @@ public class Main3 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        int [] numeros = {5,25,36,2,14,25,3,1};
+        int mayor = -9999;
+        int menor = 9999;
+        for(int i=0; i<numeros.length; i++){
+            if(mayor<numeros[i]) mayor = numeros[i];
+            if(menor>numeros[i]) menor = numeros[i];
+        }
+        System.out.println("Mayor:"+mayor);
+        System.out.println("Menor:"+menor);
     }
     
 }
